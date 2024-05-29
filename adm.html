@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>funcionarios</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{ font-family: "Rubik", sans-serif;}
+
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            height: 100px;
+            background-color: black;
+        }
+        .wrapper{
+            display: flex;
+            align-items: center;
+        }
+        .title{
+            margin-left: 50px;
+            color: antiquewhite;
+        }
+        .logo img{
+            width: 70px;
+            height: 70px;
+            margin: 60px;
+            justify-content: center;
+        }
+        .navegation{
+            display: flex;
+            
+        }
+        .navegation li{
+            margin: 50px;
+            justify-content: flex-end;
+            list-style: none;
+        }
+
+        .navegation li a{
+            text-decoration: none;
+            color: antiquewhite;
+            font-size: large;
+        }
+        .navegation li a:hover{
+            background-color: gray;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo"><img src="logo.png" alt=""></div>
+            <div class="title"><h2>BEM VINDO(a)</h2></div>
+        </div>
+        <nav>
+            <ul class="navegation">
+                <li><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2W6ToavZ65cbpdu8qx3vw6WuXcTTHRwM56g&usqp=CAU">Sobre</a></li>
+                <li><a href="https://media.istockphoto.com/id/625877394/pt/foto/replica-of-bat-signal-device-at-yorkshire-cosplay-convention.jpg?s=612x612&w=0&k=20&c=_wg977hIs0-oNUVFMDscqWTq75eZZ0-UEfb_38mVRuI=">Serviços</a></li>
+                <li><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmckts-i6czVgk6j-csS4zglZnWuKTt-uKeBB1Ti7pQLqi9KOKqtbmLq3sdpsXO3WnFkA&usqp=CAU">Contato</a></li>
+                <li><a href="index.html">SAIR</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
